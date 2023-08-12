@@ -42,7 +42,7 @@ That's anti-steam-commonredist.
 This is only tested on 64-bit Windows 10/11 system.
 32-bit system is not supported, but you may change `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Valve\Steam\Apps\CommonRedist` to `HKEY_LOCAL_MACHINE\Software\Valve\Steam\Apps\CommonRedist` and give a try.
 
-This only prevent Steam from installing commonredist, those runtimes still need to be installed.
+This only prevent Steam from installing commonredist, those runtime still need to be installed.
 I recommend [vcredist](https://github.com/abbodi1406/vcredist/releases/latest), or alternatively if you use package manager like winget, Chocolatey or Scoop, just install from that.
 
 For more details (TBH there is none), check my blog post [阻止 Steam 安装 Windows 运行库](https://blog.vinfall.com/posts/2023/08/anti-steam-commondist/).
