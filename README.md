@@ -26,11 +26,11 @@ That's anti-steam-commonredist.
 
 | Variant                     | Blocked content                             |
 | --------------------------- | ------------------------------------------- |
-| no-directx.reg              | DirectX                                     |
-| no-dotnet-framework.reg     | .Net Framework                              |
-| no-vcredist.reg             | vcredist                                    | 
-| no-really-common-redist.reg | .NET, DirectX & vcredist                    |
-| no-steam-commonredist.reg   | .NET, DirectX, vcredist, XNA, PhysX, OpenAL |
+| [no-directx.reg](https://raw.githubusercontent.com/Vinfall/anti-steam-commondist/main/no-directx.reg)              | DirectX                                     |
+| [no-dotnet-framework.reg](https://raw.githubusercontent.com/Vinfall/anti-steam-commondist/main/no-dotnet-framework.reg)     | .Net Framework                              |
+| [no-vcredist.reg](https://raw.githubusercontent.com/Vinfall/anti-steam-commondist/main/no-vcredist.reg)             | vcredist                                    | 
+| [no-really-common-redist.reg](https://raw.githubusercontent.com/Vinfall/anti-steam-commondist/main/no-really-common-redist.reg) | .NET, DirectX & vcredist                    |
+| [no-steam-commonredist.reg](https://raw.githubusercontent.com/Vinfall/anti-steam-commondist/main/no-steam-commonredist.reg)   | .NET, DirectX, vcredist, XNA, PhysX, OpenAL |
 
 ## Usage
 
