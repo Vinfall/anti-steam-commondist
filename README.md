@@ -5,7 +5,7 @@ Bloated Windows image is truncated to as minimum as possible, with .NET 3.5, vcr
 
 You have a happy life.
 
-Now you install the *de facto* go-to gaming platform on PC, which is still 32-bit as of 2023, and comes with a service vulnerable to local privilege escalation.
+Now you install the *de facto* go-to gaming platform on PC, which is still 32-bit as of 2024, and comes with a service vulnerable to local privilege escalation.
 You install your good old game, and,
 
 all of a sudden, since you have 1000Mbps network,
@@ -15,27 +15,26 @@ You become angry, as it's the I-dunno-probably-50th time Steam try to offend you
 
 So you spent 10 minutes searching and wrote a script to prevent Steam from installing commonredist, and 30 minutes later discovered it could just be done via registry.
 
-That's anti-steam-commonredist.
+That's the birth of anti-steam-commonredist.
 
-![Well, of course I know him. He's me.](well.jpg)
+![Well, of course I know him. He's me.](/res/well.avif)
 
 ## Variant
 
-[no-really-common-redist.reg](https://raw.githubusercontent.com/Vinfall/anti-steam-commondist/main/no-really-common-redist.reg) is recommended as OpenAL/PhysX/XNA are rarely used nowadays and chances are you can't find an installer more reliable than the one Steam provides.
+[no-really-common-redist.reg](/reg/no-really-common-redist.reg) is recommended as OpenAL/PhysX/XNA are rarely used nowadays and chances are you can't find an installer more reliable than the one Steam provides.
 
-
-| Variant                     | Blocked content                             |
-| --------------------------- | ------------------------------------------- |
-| [no-directx.reg](https://raw.githubusercontent.com/Vinfall/anti-steam-commondist/main/no-directx.reg)              | DirectX                                     |
-| [no-dotnet-framework.reg](https://raw.githubusercontent.com/Vinfall/anti-steam-commondist/main/no-dotnet-framework.reg)     | .Net Framework                              |
-| [no-vcredist.reg](https://raw.githubusercontent.com/Vinfall/anti-steam-commondist/main/no-vcredist.reg)             | vcredist                                    | 
-| [no-really-common-redist.reg](https://raw.githubusercontent.com/Vinfall/anti-steam-commondist/main/no-really-common-redist.reg) | .NET, DirectX & vcredist                    |
-| [no-steam-commonredist.reg](https://raw.githubusercontent.com/Vinfall/anti-steam-commondist/main/no-steam-commonredist.reg)   | .NET, DirectX, vcredist, XNA, PhysX, OpenAL |
+| Variant | Blocked content |
+| ------- | --------------- |
+| [no-directx.reg](/reg/no-directx.reg) | DirectX |
+| [no-dotnet-framework.reg](/reg/no-dotnet-framework.reg) | .Net Framework |
+| [no-vcredist.reg](/reg/no-vcredist.reg) | vcredist |
+| [no-really-common-redist.reg](/reg/no-really-common-redist.reg) | .NET, DirectX & vcredist |
+| [no-steam-commonredist.reg](/reg/no-steam-commonredist.reg) | .NET, DirectX, vcredist, XNA, PhysX, OpenAL |
 
 ## Usage
 
-0. As a general reminder, ALWAYS backup your registry before messing with it!
-1. Download your favored variant, backup registry, import registry, done.
+0. As a general reminder, **ALWAYS** backup your registry before messing with it!
+1. Download your favored variant, **backup registry**, import registry, done.
 
 ## Reminder
 
