@@ -41,6 +41,8 @@ That's the birth of anti-steam-commonredist.
 This is only tested on 64-bit Windows 10/11 system.
 32-bit system is not supported, but you may change `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Valve\Steam\Apps\CommonRedist` to `HKEY_LOCAL_MACHINE\Software\Valve\Steam\Apps\CommonRedist` and give a try.
 
+If you use regular user without administrator privilege, change `HKEY_LOCAL_MACHINE` (aka. HKLM) to `HKEY_CURRENT_USER` (aka. HKCU) before importing. Keep in mind you need to do it for *every* user with Steam access on your system if so.
+
 This only prevent Steam from installing commonredist, those runtime still need to be installed.
 I recommend [vcredist](https://github.com/abbodi1406/vcredist/releases/latest), or alternatively if you use package manager like winget, Chocolatey or Scoop, just install from that.
 
