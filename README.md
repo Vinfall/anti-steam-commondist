@@ -1,5 +1,8 @@
 # anti-steam-commonredist
 
+> [!WARNING]
+> Deprecated as I no longer actively use Steam on Windows.
+
 <details><summary>Intro</summary>
 You are a sysadmin w/ 10+ years of experience.
 Bloated Windows image is trimmed the minimum, with .NET 3.5, vcredist, printer patch et al. packed.
