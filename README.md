@@ -24,15 +24,15 @@ That's the birth of anti-steam-commonredist.
 
 ## Variant
 
-[no-really-common-redist.reg](/reg/no-really-common-redist.reg) is recommended as OpenAL/PhysX/XNA are rarely used nowadays and chances are you can't find an installer more trustworthy than the one Steam provides.
+[no-commonredist.reg](/reg/no-commonredist.reg) is recommended as OpenAL/PhysX/XNA are rarely used nowadays and chances are you can't find an installer more trustworthy than the one Steam provides.
 
 | Variant | Blocked content |
 | ------- | --------------- |
 | [no-directx.reg](/reg/no-directx.reg) | DirectX |
 | [no-dotnet-framework.reg](/reg/no-dotnet-framework.reg) | .Net Framework |
 | [no-vcredist.reg](/reg/no-vcredist.reg) | vcredist |
-| [no-really-common-redist.reg](/reg/no-really-common-redist.reg) | .NET, DirectX & vcredist |
-| [no-steam-commonredist.reg](/reg/no-steam-commonredist.reg) | .NET, DirectX, vcredist, XNA, PhysX, OpenAL |
+| [no-commonredist.reg](/reg/no-commonredist.reg) | .NET, DirectX & vcredist |
+| [no-aio.reg](/reg/no-aio.reg) | .NET, DirectX, vcredist, XNA, PhysX, OpenAL |
 
 ## Usage
 
